@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-pipenv:18.04/3.7
+    runs-on: namgivu/ubuntu-pipenv:18.04-3.7
     steps:
     - uses: actions/checkout@v1
 
