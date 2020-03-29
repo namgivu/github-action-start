@@ -7,7 +7,8 @@ on:
 
 jobs:
   build:
-    runs-on: namgivu/ubuntu-pipenv:18.04-3.7
+    runs-on: ubuntu-18.04
+    #runs-on: namgivu/ubuntu-pipenv:18.04-3.7  #TODO why this image not working while it available at https://hub.docker.com/r/namgivu/ubuntu-pipenv
     steps:
     - uses: actions/checkout@v1
 
