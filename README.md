@@ -4,7 +4,7 @@ ref. https://medium.com/@Keithweaver_/only-run-github-actions-on-specific-branch
 ```bash
 : this-folder
 f='.github/workflows/onpush-branchx.yml'
-mkdir -p ${f%/*} && touch $f
+mkdir -p ${f%/*} && touch $f && git add $f && git commit 'test' && git push
 ```
 
-view run output recorded as [this snapshot](.doc/onpush-branchx.png)
+view run output recorded as [this snapshot](./doc/onpush-branchx.png)
