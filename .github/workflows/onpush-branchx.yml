@@ -19,3 +19,5 @@ jobs:
       run: |
         echo 'Line 00 from branch :branch-x'
         echo 'Line 01 from branch :branch-x'
+
+#TODO send notification to slack channel ref. https://github.com/trangtruong1610/github-action/blob/master/.github/workflows/master.yml#L38
